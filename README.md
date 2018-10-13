@@ -1,5 +1,7 @@
 # Overview
 
+[![GuardRails badge](https://badges.production.guardrails.io/bennythejudge/docker-nifi.svg)](https://www.guardrails.io)
+
 Dockerized multi-host NiFi. The following 2 deployments are provided:
 - Acquisition (standalone) node talking to a NiFi Cluster Manager via RPG (site-to-site), which, in turn, manages a cluster of processing nodes
 - NiFi worker nodes can be scaled up and down via a standard `docker-compose scale worker=N` command (starts with 1 node)
